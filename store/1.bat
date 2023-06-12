@@ -1,0 +1,1 @@
+start "Chrome" "C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir=""C:\Users\NDC\Desktop\New folder (2)\1"
