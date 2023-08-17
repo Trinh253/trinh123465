@@ -1,0 +1,29 @@
+{
+   "action": {
+      "default_popup": "data/popup/index.html"
+   },
+   "background": {
+      "service_worker": "worker.js"
+   },
+   "default_locale": "en",
+   "description": "__MSG_description__",
+   "homepage_url": "https://add0n.com/tor-control.html",
+   "icons": {
+      "128": "data/icons/128.png",
+      "16": "data/icons/16.png",
+      "256": "data/icons/256.png",
+      "32": "data/icons/32.png",
+      "48": "data/icons/48.png",
+      "512": "data/icons/512.png",
+      "64": "data/icons/64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAloGhhWFqHomsCAj6JzHc/cZbzUklyGFFL2xBGAbT/A390MN3+lJIPCHYrfW4Dz0BfDX3Mc5OclN4vbL3sqGfB581MNmIGxbTRtyYljH+zy4twBN5svqXE2thAiJ5/f+TsXI0dWi1/UahwDy1JqIxT3AW4brAQ2iZCoCjqN0xc/1ytCaMqU3GIoNBDGriXlDb+rQpLzrI6Bq5C6FS31MkK0eQG2UDjzWMwsFlXtTW1Ok9VztzkNR6jX/WOo2ZhafM5bjfQJDe0Jien2oL1jUZN+kDKsUycwuAl+iH+JhCgbStbj1f+KC+bd4yiAePlfhyhZVN7lY30vasotNP+XWDVQIDAQAB",
+   "manifest_version": 3,
+   "name": "Proxy Client for Onion",
+   "options_ui": {
+      "page": "data/options/index.html"
+   },
+   "permissions": [ "storage", "proxy", "privacy", "notifications", "nativeMessaging" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.2.1"
+}

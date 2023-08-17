@@ -1,0 +1,5 @@
+{
+   "description": {
+      "message": "A hálózati kéréseket a Tor SOCKS5 proxy szerveren keresztül csatornázza, és elrejti az IP-címet."
+   }
+}

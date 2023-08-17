@@ -1,0 +1,5 @@
+[0805/224227.579:ERROR:cert_issuer_source_aia.cc(34)] Error parsing cert retrieved from AIA (as DER):
+ERROR: Couldn't read tbsCertificate as SEQUENCE
+ERROR: Failed parsing Certificate
+
+[0805/224227.967:INFO:CONSOLE(12)] "Error parsing a meta element's content: ';' is not a valid key-value pair separator. Please use ',' instead.", source: https://democaptcha.com/demo-form-eng/hcaptcha.html (12)
