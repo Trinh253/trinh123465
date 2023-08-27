@@ -1,0 +1,55 @@
+@downloaded-at 2023-08-27 05:29:16
+@source "209.148.46.65"
+@purpose bridge
+router GeorgetownPontem 209.148.46.65 4381 0 0
+identity-ed25519
+-----BEGIN ED25519 CERT-----
+AQQABy90ASTd6aUivep/X530OeKV0pkLUcM933ECldN6BOIJMFcNAQAgBABlYKzX
+Y2Tw1bs8QZDavlkEXo8tcWdP6jlbdNLlAL8kYy8AE563FBWKecMg+IXTuVR4W0M7
+DtzRWzMIakZ587PyK/Mcn9d+RKzv677yi4ngm3kvHsiD/rE79xD2CnzjbQ4=
+-----END ED25519 CERT-----
+master-key-ed25519 ZWCs12Nk8NW7PEGQ2r5ZBF6PLXFnT+o5W3TS5QC/JGM
+platform Tor 0.4.7.10 on Linux
+proto Cons=1-2 Desc=1-2 DirCache=2 FlowCtrl=1-2 HSDir=2 HSIntro=4-5 HSRend=1-2 Link=1-5 LinkAuth=1,3 Microdesc=1-2 Padding=2 Relay=1-4
+published 2023-08-27 05:03:41
+fingerprint 74FA D131 6880 6246 6025 3855 5B55 21A0 383A 1875
+uptime 18855336
+bandwidth 7864320 9830400 7500715
+extra-info-digest B2243958E5D010B7E641C4672B6137137D5077CE AB/ywz/BnEae2xC6t29K75FiueWTzpXp0cB9pP7sGI4
+onion-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAMmU8/SWQ7lw1oMdZz/ZQ+6wFI4JgDNJMm1hvFrSwqbSW4bKAESuaOZx
+GyNY2zThNwkDFNGfBcB4bOYLRvidO3DOr9IpJODd8V+PK9eYOHL39AdiiEBYSr5a
+p8NbJPastrQJQiLDKwsIZZK4wAmOXPigrRlG+z0iOdsRcxBZ7jPVAgMBAAE=
+-----END RSA PUBLIC KEY-----
+signing-key
+-----BEGIN RSA PUBLIC KEY-----
+MIGJAoGBAKv/knubacRU2oiA/ksFXFP9LAWiK44RiWxHKTmnUHWd5DH0W5BImipv
+ZuifvIlw04onTLMqgnyoj/Woarryhx/AFvu9MgR+3KOqrKA0erBMEO0jmiNdfVMa
+OgbuHexkFjUDHUmiJypaPtLOO54fGDh8n17ACy61wCEzsPyYhM9/AgMBAAE=
+-----END RSA PUBLIC KEY-----
+onion-key-crosscert
+-----BEGIN CROSSCERT-----
+NuPwCpbxh5O7+LQv5iz4bS7eS/V58cT0zHRIm7MSXsSWc1hgKIqp9ClWFGFD/VVL
+DfwI+bj+qZGUIvIj0emR326H5tmIPdGV234iY07im68Y3i0Uhy60IuEN1FPm/4Gv
+IARIkCPuW6ZTqFjMXo/rwDX4NtD8rxP/eCoQHEq/P8w=
+-----END CROSSCERT-----
+ntor-onion-key-crosscert 1
+-----BEGIN ED25519 CERT-----
+AQoABy/GAWVgrNdjZPDVuzxBkNq+WQRejy1xZ0/qOVt00uUAvyRjAKJUO6OAdIBs
+fY7DyJRbBaqfEiYHxCOEhVLJcIit3mcNE09vkdriQuPpUJ8LJq5N6wzUZ/lDCEos
+VJjgLo/gpg8=
+-----END ED25519 CERT-----
+hidden-service-dir
+contact Micah Sherr <msherr@cs.georgetown.edu>
+bridge-distribution-request none
+ntor-onion-key F51IZNPI2O9uiGH/hnmct+d3k45vbQhWSfSyByPX8RQ
+reject *:*
+tunnelled-dir-server
+router-sig-ed25519 cObnxDBJGRGKAydvLAIsd6opb9p8+4dph7W67YnrqkUHDofYcGepeW3PViw4nMyexs2tl/I1LTw5Q7YbRuuOCA
+router-signature
+-----BEGIN SIGNATURE-----
+aRQGmCqkJt25ashfJ+jE9ubB2Wz8Ah0bNxE4x6onuCpYJXcD9ByJrQJO2xE64VNM
+7nsq02DIZKgmMCTwsYWPG5fvkawwzetBjgHdyFJu+wBHl4ibMWO8ig1oU3zgl3sJ
+/P+/aJdF/7WG+/bFAkD0uyX21+AEzSpa8LFape8AHkQ=
+-----END SIGNATURE-----
